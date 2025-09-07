@@ -1,45 +1,40 @@
-# SRM Recruitment Agency Website
+# SRM Recruitment Agency SRL — Free Website Template
 
-This is the official website for **SRM Recruitment Agency SRL**, built for international job placement services.  
-The site is designed to be mobile-friendly and fully **installable as a Progressive Web App (PWA)** on iPhone and Android devices.
+A clean, multi-page HTML/CSS/JS site you can deploy anywhere (Replit, Netlify, GitHub Pages).
 
-## Features
-- Full website with pages: Home, About, Services, Job Seekers, Employers, Blog, Contact, Thank You.
-- **PWA Support**: Add to Home Screen, offline caching via service worker.
-- Integrated placeholder for **Flutterwave payment** (€1200 processing fee).
-- Mobile-responsive and fast-loading design.
-- Ready for deployment on **Netlify** (free hosting).
+## Pages
+- `index.html` — home
+- `about.html` — about the agency
+- `services.html` — services
+- `countries.html` — countries served
+- `for-job-seekers.html` — steps + €1200 milestone payments + Flutterwave link
+- `employers.html` — employer request form
+- `blog.html` — placeholder posts
+- `contact.html` — contact + form
 
-## Folder Structure
-srm_site_ready/
-├─ index.html
-├─ about.html
-├─ services.html
-├─ countries.html
-├─ jobseekers.html
-├─ employers.html
-├─ blog.html
-├─ contact.html
-├─ thank-you.html
-├─ manifest.json
-├─ sw.js
-├─ assets/
-│  ├─ css/
-│  │  └─ style.css
-│  ├─ js/
-│  │  └─ main.js
-│  └─ img/
-│     └─ logo.png
-## Deployment
-1. Sign up on [Netlify](https://www.netlify.com/)  
-2. Click **Add new site → Deploy manually**  
-3. Drag & drop the contents of this repository (or ZIP)  
-4. Set a clean subdomain (e.g., `srmagency.netlify.app`)  
-5. Test on mobile and add to Home Screen for PWA functionality
+## Customize
+- Update contact details in `footer_common` sections of each HTML, or do a global find/replace:
+  - Email: srmrecruitmentagencysrl@gmail.com
+  - WhatsApp: +44 7957 475155 (link uses wa.me/447957475155)
+  - Payment: https://flutterwave.com/pay/mcw21mvsuvta
+- Replace `assets/logo.svg` with your official red-bird logo if you like.
+- Forms use [FormSubmit](https://formsubmit.co/) — free and no backend needed. Confirm your email once to activate.
+
+## Deploy
+### Replit
+1. Create a new Replit (HTML, CSS, JS).
+2. Upload all files/folders from this template.
+3. Click Run and open the webview.
+
+### GitHub Pages
+1. Create a repo, upload files.
+2. Settings → Pages → Deploy from branch → root.
+3. Your site will be live at `https://<username>.github.io/<repo>/`.
+
+### Netlify
+1. Drag & drop the folder onto app.netlify.com Sites.
+2. Get a free URL instantly.
 
 ## Notes
-- Replace placeholder logo (`assets/img/logo.png`) with the official SRM red bird logo.  
-- Ensure payment integration points are configured correctly before going live.  
-
-## License
-This project is proprietary to **SRM Recruitment Agency SRL**.
+- This mimics the *layout and structure* of popular recruitment sites but uses original copy and design.
+- If you need payment status emails every 2 weeks, you'll need automation (e.g., Zapier + Google Sheets or a simple backend). I can add that later using free tiers.
