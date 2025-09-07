@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80" aria-label="SRM red bird logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff3b30"/>
+      <stop offset="100%" stop-color="#b00000"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="80" rx="10" ry="10" fill="#121212"/>
+  <g transform="translate(12,10)">
+    <path d="M40 30c20-30 60-20 70-5-10 0-20 5-25 10 8 0 18 2 26 8-20 5-44 6-55-3-4 6-9 10-16 12 5-8 6-15 0-22z" fill="url(#g)"/>
+    <circle cx="83" cy="28" r="3" fill="#111"/>
+    <text x="110" y="35" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#ffffff" font-weight="700">SRM Recruitment</text>
+  </g>
+</svg>
